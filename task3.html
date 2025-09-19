@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3 - Table and Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="grades-heading">Student Grades</h1>
+    </header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="task1.html">Task 1</a></li>
+        <li><a href="task2.html">Task 2</a></li>
+        <li><a href="task3.html">Task 3</a></li>
+        <li><a href="task4.html">Task 4</a></li>
+    </ul>
+</nav>
+    <main class="center-content">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>Diana</td>
+                <td>Math</td>
+                <td>A+</td>
+            </tr>
+            <tr class="highlight-row">
+                <td>Aibar</td>
+                <td>History</td>
+                <td>B-</td>
+            </tr>
+            <tr>
+                <td>Zhanel</td>
+                <td>Computer Science</td>
+                <td>A</td>
+            </tr>
+        </table>
+
+        <!-- Форма -->
+        <h2>Feedback Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br>
+
+            <label for="role">Role:</label>
+            <select id="role">
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Other</option>
+            </select><br>
+
+            <p>Do you like this website?</p>
+            <label><input type="radio" name="like" value="yes"> Yes</label>
+            <label><input type="radio" name="like" value="no"> No</label><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments"></textarea><br>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2025 Feedback Page</p>
+    </footer>
+</body>
+</html>
